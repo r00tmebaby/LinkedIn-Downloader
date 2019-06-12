@@ -1,7 +1,7 @@
 # LinkedIn-Downloader
 LinkedIn DL  is a small GUI program codded with Python and based on my previous Lynda Download script.
 LinkedIn GUI version is capable to download mutliple courses from LinkedIn Learning by a given list. The features implemented in this beta version are:
-<img>https://i.imgur.com/SrpYArO.png</img>
+<image>https://i.imgur.com/SrpYArO.png</image>
 
 <b>Completed:</b>
 - Automatic Login to LinkedIn
