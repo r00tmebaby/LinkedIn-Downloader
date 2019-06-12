@@ -2,7 +2,7 @@
 LinkedIn DL  is a small GUI program codded with Python and based on my previous Lynda Download script.
 LinkedIn GUI version is capable to download mutliple courses from LinkedIn Learning by a given list. The features implemented in this beta version are:
 
-Completed:
+<b>Completed:</b>
 - Automatic Login to LinkedIn
 - Enabling/Disabling Chrome extensinons 
 - Change Browser Agent
@@ -11,7 +11,7 @@ Completed:
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successfull login if this option is selected the program will use the session.
 
-TODO Next:
+<b>TODO Next:</b>
  - Proxy functionality and/or VPN
  - Improving the overal GUI look
  - Adding An Advanced Options Menu wich will include speccific sleep times to control the software behaviour more precisely
