@@ -24,6 +24,6 @@ LinkedIn GUI version is capable to download multiple courses from LinkedIn Learn
  - Capability to choose the video quality before starting the program
  - Burning subtitles *in facts this functionality was implemented but I found difficulties to match the subtitles timings with the video precisely and had to remove it as became after all unreliable function. I am still looking to find a permanent solution.
  
- If you have any advice, recomendations or ideas for additional functionalities they are very welcome. 
+ If you have any advice, recommendations or ideas for additional functionalities they are very welcome. 
  
  Should you find any bugs or problems, please let me know so I can fix them accordingly.
