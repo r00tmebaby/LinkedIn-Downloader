@@ -3,17 +3,21 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 
 <img src="https://i.imgur.com/SrpYArO.png"></img>
 
-LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. The features implemented in this beta version are:
+LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. The features implemented in this beta version are as follows:
+
 <b>Usage</b>
 You have three tabs Login, Download and Browser
-  Login Tab -> <img src="https://i.gyazo.com/4aa664cd791f5291231e54ddb84ddf70.png"></img>
+  Login Tab <img src="https://i.gyazo.com/4aa664cd791f5291231e54ddb84ddf70.png"></img>
+  
   You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The program will try to open LinkedIn with the saved in the broswer user profile credentials.
   
-  Download Tab -> <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img>
+  Download Tab  <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img>
+  
   As shown in the image the first field is for the courses. Each course link must be placed in a row, one above another. No other separators like comas, semicolumns or one after another with space will be recognised. 
   The second field is for the directory which will be used to save all downloaded courses.
   
-  Browser Tab -> <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img>
+  Browser Tab  <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img>
+  
   Here you can change the browser agent, this is in favour if you want to replace your original chrome browser agent with another, say mobile, safary or firefox etc. For the planned updates with built in proxy and vpn options this setting will become more usefull, for now is as a placeholder. It works now but does not make a lot of sence beacause you have to use another VPN service.
   
   The extra checkboxes are for the browser extensions, browser window (unselected checkbox will hide the browser window), GPU rendering, Using user profile, sandbox.   
