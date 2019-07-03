@@ -19,11 +19,11 @@ You have three tabs Login, Download and Browser
  - <b>Login Tab </b>
   <img src="https://i.gyazo.com/4aa664cd791f5291231e54ddb84ddf70.png"></img>
  
-  You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The program will try to open LinkedIn with the saved in the broswer user profile credentials.
+       You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program        will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do        it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The            program will try to open LinkedIn with the saved in the broswer user profile credentials.
 
   
- - <b>Download Tab  <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img>
-  
+ - <b>Download Tab </b> <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img>
+
   
   As shown in the image the first field is for the courses. Each course link must be placed in a row, one above another. No other separators like comas, semicolumns or one after another with space will be recognised. 
   The second field is for the directory which will be used to save all downloaded courses.
