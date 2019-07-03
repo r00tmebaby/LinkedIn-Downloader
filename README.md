@@ -18,7 +18,7 @@ You have three tabs Login, Download and Browser
 
  - <b>Login Tab </b>
 
- <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img>
+<img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img>
  
   You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The program will try to open LinkedIn with the saved in the broswer user profile credentials.
   <img src="https://i.gyazo.com/4aa664cd791f5291231e54ddb84ddf70.png"></img>
@@ -30,7 +30,7 @@ You have three tabs Login, Download and Browser
   The second field is for the directory which will be used to save all downloaded courses.
   
   
- - <b>Browser Tab  <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img></b></br>
+ - <b>Browser Tab   <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img></b></br>
   
   
   Here you can change the browser agent, this is in favour if you want to replace your original chrome browser agent with another, say mobile, safary or firefox etc. For the planned updates with built in proxy and vpn options this setting will become more usefull, for now is as a placeholder. It works now but does not make a lot of sence beacause you have to use another VPN service.
