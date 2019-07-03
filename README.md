@@ -16,8 +16,10 @@ LinkedIn GUI version is capable to download multiple courses from LinkedIn Learn
 You have three tabs Login, Download and Browser
 
 
- - <b>Login Tab</b> 
-  </br>
+ - <b>Login Tab </b>
+ </br>
+ <img src="https://i.gyazo.com/60b606fede2e4e8c1327d56f5f140aee.png"></img>
+ 
   You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The program will try to open LinkedIn with the saved in the broswer user profile credentials.
   <img src="https://i.gyazo.com/4aa664cd791f5291231e54ddb84ddf70.png"></img>
   
