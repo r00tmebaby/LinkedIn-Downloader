@@ -3,7 +3,8 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 
 <img src="https://i.imgur.com/SrpYArO.png"></img>
 
-LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. The program is very simple, what was my plan to avoid complicated things. 
+<b>What it does?</b></br>
+LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list.
 
 <b>About the program</b></br>
  The program is based on SeleniumWebDriver library and is written in python and the code converted to executable. My idea was to make it easier for using since not everyone is familiar with python, consoles, libraries and so on, but anyone can run a simple exe file. So said, you do not need to have python or libraies installed on your pc to run the program, everything is built in the exe istelf. Of course the downside is that it can be only run on Windows operation system. Obviously this is not the best solution, not even the fastest but the target here is to have easy for using, free and functional program. So following production standarts (which I am not aware of anyway) does not make any sense here.
@@ -17,7 +18,7 @@ You have three tabs Login, Download and Browser
   
   You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked . The program will try to open LinkedIn with the saved in the broswer user profile credentials.
   
- -  <b>Download Tab  <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img></b></br>
+ - <b>Download Tab  <img src="https://i.gyazo.com/ac9eb0ab9289db6e3c1a5001c035ad42.png"></img></b></br>
   
   As shown in the image the first field is for the courses. Each course link must be placed in a row, one above another. No other separators like comas, semicolumns or one after another with space will be recognised. 
   The second field is for the directory which will be used to save all downloaded courses.
