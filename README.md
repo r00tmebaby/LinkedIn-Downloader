@@ -46,8 +46,12 @@ You have three tabs Login, Download and Browser
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
+<b>Fixes in version 0.11:</b>
+   - Fixed issue reported in #3 and #4. Downloading first video twice and skipping the last video
+   - Fixed issue with an empty course download list, program runtime error.
+   - Improved messages
+   
 <b>TODO Next:</b>
- - Proxy functionality and/or VPN
  - Improving the overall GUI look
  - Adding An Advanced Options Menu which will include specific sleep times to control the software behaviour more precisely
  - Capability to download Exercise Files (That was included in my LyndaDl script but not here)
