@@ -1,0 +1,15 @@
+[mainConfig]
+login = False
+loginuser = 
+loginpass = 
+downloadlist = 
+savedirectory = 
+
+[GoogleConfig]
+bragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
+extensions = True
+sandbox = True
+usrprofile = True
+window = True
+gpu = True
+
