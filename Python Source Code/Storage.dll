@@ -1,0 +1,65 @@
+[mainConfig]
+login = True
+loginuser = info@zdpainters.com
+loginpass = Zdr123#@!
+
+[GoogleConfig]
+bragent = Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+extensions = True
+window = True
+gpu = True
+usrprofile = False
+sandbox = True
+
+[Twilio]
+whatsapp = False
+sms = False
+account_sid = AC88f00f7e7470af73f5a9af87e3e31fe3
+auth_token = ee1746bb9f32cb8dd8b8e2fdd07209dc
+sendto_nr = +447910898827
+twilio_nr = +441435205043
+
+[Email]
+sendemail = True
+fromadr = info@zdpainters.com
+sendto = info@zdpainters.com
+smtpsrv = mail.zdpainters.com
+username = info@zdpainters.com
+password = Zdr123#@!
+
+[RatedFilter]
+budgetmin = 1000
+budgetmax = 30000
+featureleads = True
+firsttobuy = True
+leadsimage = True
+urgently = True
+2days = True
+2weeks = True
+2months = True
+2montsplus = True
+iamflexy = True
+readytohire = False
+planninfandbu = False
+insurencepurp = True
+postcodes = Ruislip, Chesham, Rickmansworth, Wycombe, Hemel Hampstead, Watford,Amersham, Chalfont, Pinner, Northwood
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+[Advanced]
+sleeptimeonstart = 4
+sleeptimeonsuccess = 3
+sleeptimeonfail = 3
+helpcpu = 1
+allpost = False
+
