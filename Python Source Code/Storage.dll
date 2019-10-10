@@ -1,65 +1,15 @@
 [mainConfig]
 login = True
-loginuser = info@zdpainters.com
+loginuser = r00tme@abv.bg
 loginpass = Zdr123#@!
+downloadlist = https://www.linkedin.com/learning/photoshop-cc-2015-new-features-3,https://www.linkedin.com/learning/photoshop-cs6-image-optimization,https://www.linkedin.com/learning/photoshop-cc-for-photographers-sharpening,https://www.linkedin.com/learning/learning-photoshop-for-photography,https://www.linkedin.com/learning/photoshop-cc-2013-one-on-one-fundamentals,https://www.linkedin.com/learning/photoshop-layers-working-with-multiple-photos,https://www.linkedin.com/learning/enhancing-an-environmental-portrait-with-photoshop,https://www.linkedin.com/learning/photoshop-cs6-one-on-one-advanced,https://www.linkedin.com/learning/lightroom-classic-cc-and-photoshop-workflow-strategies,https://www.linkedin.com/learning/photoshop-processing-product-photos,https://www.linkedin.com/learning/photoshop-for-photographers-compositing,https://www.linkedin.com/learning/creating-black-and-white-landscape-photos-with-photoshop,https://www.linkedin.com/learning/retouching-bridal-portraits-with-photoshop,https://www.linkedin.com/learning/photoshop-cs6-for-photographers-quick-start,https://www.linkedin.com/learning/photoshop-shortcuts,https://www.linkedin.com/learning/adding-a-person-to-a-group-photo-in-photoshop,https://www.linkedin.com/learning/photoshop-cs6-restoring-photos,https://www.linkedin.com/learning/photoshop-working-with-perspective,https://www.linkedin.com/learning/photoshop-automation,https://www.linkedin.com/learning/kids-photography-retouching-with-lightroom-classic-cc-and-photoshop,https://www.linkedin.com/learning/photo-archiving-preserving-family-memories,https://www.linkedin.com/learning/photoshop-elements-12-essential-training,https://www.linkedin.com/learning/photoshop-cs6-one-on-one-mastery,https://www.linkedin.com/learning/photoshop-masking-and-compositing-hair,https://www.linkedin.com/learning/photoshop-color-correction-extreme-color-cast,https://www.linkedin.com/learning/photoshop-color-correction-target-based-corrections,https://www.linkedin.com/learning/enhancing-iphone-photos-with-lightroom-and-photoshop,https://www.linkedin.com/learning/photoshop-cs6-optimal-output,https://www.linkedin.com/learning/photoshop-elements-10-essential-training,https://www.linkedin.com/learning/photoshop-for-photographers-creative-effects,https://www.linkedin.com/learning/photoshop-and-lightroom-cropping,https://www.linkedin.com/learning/recolorizing-a-photograph-with-photoshop,https://www.linkedin.com/learning/photoshop-elements-11-essential-training-3-sharing-printing-photos,https://www.linkedin.com/learning/cert-prep-adobe-certified-associate-photoshop-2,
+savedirectory = Z:/G/Tutorials
 
 [GoogleConfig]
-bragent = Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+bragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
 extensions = True
+sandbox = True
+usrprofile = True
 window = True
 gpu = True
-usrprofile = False
-sandbox = True
-
-[Twilio]
-whatsapp = False
-sms = False
-account_sid = AC88f00f7e7470af73f5a9af87e3e31fe3
-auth_token = ee1746bb9f32cb8dd8b8e2fdd07209dc
-sendto_nr = +447910898827
-twilio_nr = +441435205043
-
-[Email]
-sendemail = True
-fromadr = info@zdpainters.com
-sendto = info@zdpainters.com
-smtpsrv = mail.zdpainters.com
-username = info@zdpainters.com
-password = Zdr123#@!
-
-[RatedFilter]
-budgetmin = 1000
-budgetmax = 30000
-featureleads = True
-firsttobuy = True
-leadsimage = True
-urgently = True
-2days = True
-2weeks = True
-2months = True
-2montsplus = True
-iamflexy = True
-readytohire = False
-planninfandbu = False
-insurencepurp = True
-postcodes = Ruislip, Chesham, Rickmansworth, Wycombe, Hemel Hampstead, Watford,Amersham, Chalfont, Pinner, Northwood
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-[Advanced]
-sleeptimeonstart = 4
-sleeptimeonsuccess = 3
-sleeptimeonfail = 3
-helpcpu = 1
-allpost = False
 
