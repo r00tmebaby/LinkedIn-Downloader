@@ -30,7 +30,8 @@ You have three tabs Login, Download and Browser
    The second field is for the directory which will be used to save all downloaded courses.
   
   
- - <b>Browser Tab   <img src="https://i.gyazo.com/e8b69412e3572f283c99ff418d146d0e.png"></img></b></br>
+ - <b>Browser Tab </b></br>
+ <img src="https://i.gyazo.com/e8b69412e3572f283c99ff418d146d0e.png"></img></br>
      Here you can change the browser agent, this is in favour if you want to replace your original chrome browser agent with another, say    mobile, safary or firefox etc.
    The extra checkboxes are for the browser extensions, browser window (unselected checkbox will hide the browser window), GPU              rendering, Using user profile, sandbox.   
    
