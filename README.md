@@ -14,28 +14,29 @@ LinkedIn GUI version is capable to download multiple courses from LinkedIn Learn
  
 
 <b>How to use the program</b>
-You have three tabs Login, Download and Browser
+You have five tabs Login, Download, Browser, Timings and About
 
 
- - <b>Login Tab </b>
+ - <b>Login Tab </b></br>
   <img src="https://i.gyazo.com/bd85da3f61163956f8e234106e5aa6d2.png"></img>
- 
+ </br>
    You have to fill the fields with your LinkedIn Learning username(email address) and password. If the Login is checked the program        will try to login into LinkedIn with the given credentials. If for some reason the program does not login succesfully you can do        it manualy and then re-run the program with "Use Profile" checkbox under the Browser tab checked and "Login" unchecked. The program      will try to open LinkedIn with the saved in the broswer user profile credentials.
-
+</br>
   
- - <b>Download Tab </b> <img src="https://i.gyazo.com/897e1fd6c42eb5f24dfa7a91b28d4679.png"></img>
+ - <b>Download Tab </b> <img src="https://i.gyazo.com/897e1fd6c42eb5f24dfa7a91b28d4679.png"></img></br>
 
   
    As shown in the image the first field is for the courses. Each course link must be placed in a row, one above another. No other          separators like comas, semicolumns or one after another with space will be recognised. 
-   The second field is for the directory which will be used to save all downloaded courses.
+   The second field is for the directory which will be used to save all downloaded courses.</br>
   
   
  - <b>Browser Tab </b></br>
  <img src="https://i.gyazo.com/e8b69412e3572f283c99ff418d146d0e.png"></img></br>
      Here you can change the browser agent, this is in favour if you want to replace your original chrome browser agent with another, say    mobile, safary or firefox etc.
-   The extra checkboxes are for the browser extensions, browser window (unselected checkbox will hide the browser window), GPU              rendering, Using user profile, sandbox.   
+   The extra checkboxes are for the browser extensions, browser window (unselected checkbox will hide the browser window), GPU              rendering, Using user profile, sandbox.  </br>
    
- - <b>Timings Tab   <img src="https://i.gyazo.com/ab261d35d66daebea23a9e47f5eca874.png"></img></b></br>
+ - <b>Timings Tab</b></br>
+ <img src="https://i.gyazo.com/ab261d35d66daebea23a9e47f5eca874.png"></img></br>
  Added an option to delay the login so you can use that time to manually login to linkedIn. This is very handy if you login to Linkedin via organisation portal. Once you login successfully, close the browser window and then restart the program. The program will search for the saved credentials and try to open LinkedIn directly without need to login (uncheck the login checkbox before starting the program).
 
   
