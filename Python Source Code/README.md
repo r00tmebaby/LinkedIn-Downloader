@@ -1,4 +1,10 @@
 
+
+<h2>Version 0.14 - 26/10/2019</h2><br>
+<h4>An attempt to fix reported by @nemises issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10 /h4><br>
+<h4>Added function to remove previously downloaded videos if found, instead of downloading them twice/h4>
+
+
 <h2>Version 0.13 - 26/10/2019</h2><br>
 <h4>Added options delay tab to give you more control over the software behaviour:</h4><br>
  - Login Delay in seconds to give you an option to log in manually, very handy if you login trough organisation portal<br>
