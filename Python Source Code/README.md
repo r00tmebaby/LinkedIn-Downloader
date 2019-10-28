@@ -1,6 +1,6 @@
 
 
-<h2>Version 0.14 - 26/10/2019</h2><br>
+<h2>Version 0.14 - 28/10/2019</h2><br>
 <h4>An attempt to fix reported by @nemises issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10 /h4><br>
 <h4>Added function to remove previously downloaded videos if found, instead of downloading them twice/h4>
 
