@@ -49,7 +49,11 @@ You have five tabs Login, Download, Browser, Timings and About
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
-<b>Fixes in version 0.13:</b>
+<b>Fixes in version 0.14:</b>
+- An attempt to fix issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10#
+
+
+<b>Version 0.13:</b>
 - Added an option to delay options. 
 - Added options to delay the overal downloading proccess precisely so you can control it's behaviour
 - Added MacOS and Linux browser credentials support 
