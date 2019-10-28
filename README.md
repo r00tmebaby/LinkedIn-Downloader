@@ -49,9 +49,10 @@ You have five tabs Login, Download, Browser, Timings and About
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
-<b>Fixes in version 0.14:</b>
-- An attempt to fix issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10#
+</br>
 
+<b>Version 0.14:</b>
+- An attempt to fix issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10#
 
 <b>Version 0.13:</b>
 - Added an option to delay options. 
@@ -61,7 +62,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Password field is no longer in plain text but masked with stars
 - Add an option to edit the user agent field and put your own
 
-<b>Fixes in version 0.11:</b>
+<b>Version 0.11:</b>
    - Fixed issue reported in #3 and #4. Downloading first video twice and skipping the last video
    - Fixed issue with an empty course download list, program runtime error.
    - Improved messages
