@@ -3,10 +3,10 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 
 <img src="https://i.imgur.com/SrpYArO.png"></img>
 
-Video Tutorials
-Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be
+Video Tutorials</br>
+Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
-
+</br>
 <b>What it does?</b></br>
 LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. It creates separate folder for each course and rename all downloaded vides with generated numbers to be able to be ordered lexicographically properly by your windows.
 
