@@ -360,7 +360,6 @@ class Main:
                     time.sleep(config.getint("Timings", "downloaddelay"))
                     counter += 1
                     video_name = "%04d_%s_%s" % (counter, video_name, "-")
-                    main.download(url_temp, save_dir)
                     main.show_progress_bar(url_temp, "\r" + "%s[%s*%s]%s %s" % (main.bcolors.bm, main.bcolors.fc, main.bcolors.fm, main.bcolors.fc, video_name), save_dir)
                     driver.find_element_by_css_selector(".vjs-control.vjs-button.vjs-next-button").click()
                     total_counter += 1
@@ -369,11 +368,6 @@ class Main:
                     time.sleep(config.getint("Timings", "downloaddelay"))
 
                 else:
-                    sys.stdout.write("\n%s[%s-%s]%s%s%s File %s already exist. Skipped!" % (
-                        main.bcolors.bm, main.bcolors.fc, main.bcolors.fm, main.bcolors.fc,
-                        main.bcolors.sb, main.bcolors.fr, video_name + ".mp4"))
-                    sys.stdout.flush()
-                    time.sleep(config.getint("Timings", "downloaddelay"))
                     Main.remove(save_dir)
 
                 if counter == len(course):
