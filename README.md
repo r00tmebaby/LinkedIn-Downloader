@@ -50,15 +50,14 @@ You have five tabs Login, Download, Browser, Timings and About
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
 </br>
-
 <b>Version 0.14:</b>
-- An attempt to fix issue https://github.com/r00tmebaby/LinkedIn-Downloader/issues/10#
+- Fixed an issue #10. Program stops working if "Quiz" is found instead of video file
 
 <b>Version 0.13:</b>
 - Added an option to delay options. 
-- Added options to delay the overal downloading proccess precisely so you can control it's behaviour
-- Added MacOS and Linux browser credentials support 
-- Improved the overal GUI look 
+- Added options to delay the overall downloading process precisely so you can control its behaviour
+- Added macOS and Linux browser credentials support 
+- Improved the overall GUI look 
 - Password field is no longer in plain text but masked with stars
 - Add an option to edit the user agent field and put your own
 
