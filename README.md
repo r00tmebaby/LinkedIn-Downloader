@@ -1,9 +1,8 @@
 # LinkedIn-Downloader
 LinkedIn DL  is a small GUI program coded with Python and based on my previous Lynda Download script.
 
-<img src="https://i.imgur.com/SrpYArO.png"></img>
-><br>
-Video Tutorials</br>
+<img src="https://i.imgur.com/SrpYArO.png"></img><br>
+<h4>Video Tutorials</h4></br>
 Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
 <br>
