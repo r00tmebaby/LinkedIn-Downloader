@@ -4,9 +4,9 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 <b>Video Tutorials</b></br>
 
-Version 1.16 Soon
-Version 1.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
-Version 1.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
+Version 0.16 Soon
+Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
+Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 
 <br><br>
 <b>What it does?</b></br>
@@ -54,7 +54,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
 </br>
-<b>Version 1.16:</b>
+<b>Version 0.16:</b>
 <p>Added</p>
   + Download Subtitles</br>
   + Download Exercise Files</br> 
@@ -66,10 +66,10 @@ You have five tabs Login, Download, Browser, Timings and About
   - Removed loader.py file, now it works as a thread </br>  
 </br>
 
-<b>Version 1.14:</b>
+<b>Version 0.14:</b>
 - Fixed an issue #10. Program stops working if "Quiz" is found instead of video file
 
-<b>Version 1.13:</b>
+<b>Version 0.13:</b>
 - Added an option to delay options. 
 - Added options to delay the overall downloading process precisely so you can control its behaviour
 - Added macOS and Linux browser credentials support 
@@ -77,7 +77,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Password field is no longer in plain text but masked with stars
 - Add an option to edit the user agent field and put your own
 
-<b>Version 1.11:</b>
+<b>Version 0.11:</b>
    - Fixed issue reported in #3 and #4. Downloading first video twice and skipping the last video
    - Fixed issue with an empty course download list, program runtime error.
    - Improved messages
