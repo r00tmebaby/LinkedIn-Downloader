@@ -54,16 +54,12 @@ You have five tabs Login, Download, Browser, Timings and About
 <b>Version 1.16:</b>
 <p>Added</p>
   + Download Subtitles</br>
-  + Download Exercise Files</br>
-  
- <p>Removed</p>
-  - Apply Button (redundant option, now the program save the course list automatically)</br>
-  - Browser Extension Options (all required are set by default)</br>
-  - Removed loader.py file, now it works as a thread </br>
-  
- <p>Improvements</p>
-  - Stability</br>
-  - GUI Look</br>
+  + Download Exercise Files</br> 
+  + Reworked Download Algorithm to improve stability
+  + Improved GUI
+  - Removed Apply Button (redundant option, now the program save the course list automatically)</br>
+  - Removed Browser Extension Options (all required are set by default)</br>
+  - Removed loader.py file, now it works as a thread </br>  
 </br>
 
 <b>Version 1.14:</b>
