@@ -1,6 +1,6 @@
 <image src="https://i.gyazo.com/6a863b99d7f27552c6408d49994f865e.png">
 
-<h2>Version 1.16 - 30/11/2019</h2><br>
+<h2>Version 0.16 - 30/11/2019</h2><br>
 
 <h5>Added</h5>
   + Download Subtitles</br>
