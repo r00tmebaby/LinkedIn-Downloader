@@ -83,13 +83,8 @@ You have five tabs Login, Download, Browser, Timings and About
    - Improved messages
    
 <b>TODO Next:</b>
- - Improving the overall GUI look
- - Capability to download Exercise Files (That was included in my LyndaDl script but not here)
- - Capability to download Transcripts 
- - Capability to separate the videos in chapters, so each chapter will have a particular folder with videos inside the course folder
- - Capability to choose the video quality before starting the program
- - Burning subtitles *in facts this functionality was implemented but I found difficulties to match the subtitles timings with the video precisely and had to remove it as became after all unreliable function. I am still looking to find a permanent solution.
- 
+  <b> No future updates are planed</b>
+
  If you have any advice, recommendations or ideas for additional functionalities they are very welcome. 
  
  Should you find any bugs or problems, please let me know so I can fix them accordingly.
