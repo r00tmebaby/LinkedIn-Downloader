@@ -54,8 +54,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
 </br>
-<b>Version 0.16:</b>
-<p>Added</p>
+<b>Version 0.16 is executable only:</b>
   + Download Subtitles</br>
   + Download Exercise Files</br> 
   + Reworked Download Algorithm to improve stability</br>
