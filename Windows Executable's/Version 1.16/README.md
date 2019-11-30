@@ -8,7 +8,7 @@
   
  <h5>Removed</h5>
   - Apply Button (redundant option, now the program save the course list automatically)</br>
-  - Browser Extension Options (set as default)</br>
+  - Browser Extension Options (all required are set by default)</br>
   - Removed loader.py file, now it works as a thread </br>
   
  <h5>Improvements</h5>
