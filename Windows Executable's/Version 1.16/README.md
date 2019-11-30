@@ -7,7 +7,7 @@
   + Download Exercise Files</br>
   
  <h5>Removed</h5>
-  - Apply Button (redundant option, now the program save it automatically)</br>
+  - Apply Button (redundant option, now the program save the course list automatically)</br>
   - Browser Extension Options (set as default)</br>
   - Removed loader.py file, now it works as a thread </br>
   
