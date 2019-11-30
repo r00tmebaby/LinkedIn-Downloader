@@ -1,2 +1,2 @@
-# Executables
-*.exe   binary
+*.py Python
+*.exe Executable
