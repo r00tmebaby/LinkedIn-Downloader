@@ -3,6 +3,7 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 <b>Video Tutorials</b></br>
+
 Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
 <br><br>
@@ -49,11 +50,25 @@ You have five tabs Login, Download, Browser, Timings and About
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
+<b>Version 1.16:</b>
+
+<h5>Added</h5>
+  + Download Subtitles</br>
+  + Download Exercise Files</br>
+  
+ <h5>Removed</h5>
+  - Apply Button (redundant option, now the program save the course list automatically)</br>
+  - Browser Extension Options (all required are set by default)</br>
+  - Removed loader.py file, now it works as a thread </br>
+  
+ <h5>Improvements</h5>
+  - Stability</br>
+  - GUI Look</br>
 </br>
-<b>Version 0.14:</b>
+<b>Version 1.14:</b>
 - Fixed an issue #10. Program stops working if "Quiz" is found instead of video file
 
-<b>Version 0.13:</b>
+<b>Version 1.13:</b>
 - Added an option to delay options. 
 - Added options to delay the overall downloading process precisely so you can control its behaviour
 - Added macOS and Linux browser credentials support 
@@ -61,7 +76,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Password field is no longer in plain text but masked with stars
 - Add an option to edit the user agent field and put your own
 
-<b>Version 0.11:</b>
+<b>Version 1.11:</b>
    - Fixed issue reported in #3 and #4. Downloading first video twice and skipping the last video
    - Fixed issue with an empty course download list, program runtime error.
    - Improved messages
