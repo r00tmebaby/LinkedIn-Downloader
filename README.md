@@ -4,8 +4,8 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 <b>Video Tutorials</b></br>
 
-Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
-Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
+Version 1.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
+Version 1.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
 <br><br>
 <b>What it does?</b></br>
 LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. It creates separate folder for each course and rename all downloaded vides with generated numbers to be able to be ordered lexicographically properly by your windows.
@@ -50,21 +50,22 @@ You have five tabs Login, Download, Browser, Timings and About
 - Working in Background and Windowed
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
+</br>
 <b>Version 1.16:</b>
-
-<h5>Added</h5>
+<p>Added</p>
   + Download Subtitles</br>
   + Download Exercise Files</br>
   
- <h5>Removed</h5>
+ <p>Removed</p>
   - Apply Button (redundant option, now the program save the course list automatically)</br>
   - Browser Extension Options (all required are set by default)</br>
   - Removed loader.py file, now it works as a thread </br>
   
- <h5>Improvements</h5>
+ <p>Improvements</p>
   - Stability</br>
   - GUI Look</br>
 </br>
+
 <b>Version 1.14:</b>
 - Fixed an issue #10. Program stops working if "Quiz" is found instead of video file
 
