@@ -1,0 +1,21 @@
+[mainConfig]
+login = False
+loginuser = 
+loginpass = 
+downloadlist = 
+	
+	
+exercise = True
+subtitles = True
+savedirectory = 
+
+[GoogleConfig]
+bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
+
+[Timings]
+logintime = 0
+loadingallvideos = 5
+extractcoursename = 2
+getvideolink = 2
+downloaddelay = 3
+
