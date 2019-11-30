@@ -4,8 +4,10 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 <b>Video Tutorials</b></br>
 
-Version 1.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
+Version 1.16 Soon
 Version 1.14 https://www.youtube.com/watch?v=6E2wi-oJVTE
+Version 1.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
+
 <br><br>
 <b>What it does?</b></br>
 LinkedIn GUI version is capable to download multiple courses from LinkedIn Learning by a given list. It creates separate folder for each course and rename all downloaded vides with generated numbers to be able to be ordered lexicographically properly by your windows.
@@ -43,11 +45,12 @@ You have five tabs Login, Download, Browser, Timings and About
   
 <b>Completed:</b>
 - Automatic Login to LinkedIn
-- Enabling/Disabling Chrome extensions 
 - Change Browser Agent
 - Select Downloading Folder
+- Download Subtitles
+- Download Excercise Files
 - Add Courses List. Add every course line by line
-- Working in Background and Windowed
+- Working in Background and Windowed mode
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
 </br>
@@ -56,6 +59,7 @@ You have five tabs Login, Download, Browser, Timings and About
   + Download Subtitles</br>
   + Download Exercise Files</br> 
   + Reworked Download Algorithm to improve stability</br>
+  + Improved Login (addapted to the new linkedin login)</br>
   + Improved GUI</br>
   - Removed Apply Button (redundant option, now the program save the course list automatically)</br>
   - Removed Browser Extension Options (all required are set by default)</br>
