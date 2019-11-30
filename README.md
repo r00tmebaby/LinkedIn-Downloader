@@ -84,7 +84,4 @@ You have five tabs Login, Download, Browser, Timings and About
    
 <b>TODO Next:</b>
   <b> No future updates are planed</b>
-
- If you have any advice, recommendations or ideas for additional functionalities they are very welcome. 
  
- Should you find any bugs or problems, please let me know so I can fix them accordingly.
