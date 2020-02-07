@@ -1,0 +1,23 @@
+[mainConfig]
+login = False
+loginuser = 
+loginpass = 
+downloadlist = https://www.linkedin.com/learning/conquering-writer-s-block
+	https://www.linkedin.com/learning/succeeding-as-an-in-house-creative
+	
+	
+exercise = True
+subtitles = True
+savedirectory = 
+
+[GoogleConfig]
+bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
+hidewindow = False
+
+[Timings]
+logintime = 0
+loadingallvideos = 0
+extractcoursename = 0
+getvideolink = 0
+downloaddelay = 0
+
