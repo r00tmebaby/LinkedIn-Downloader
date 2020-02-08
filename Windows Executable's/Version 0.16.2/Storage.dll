@@ -3,12 +3,11 @@ login = False
 loginuser = 
 loginpass = 
 downloadlist = https://www.linkedin.com/learning/conquering-writer-s-block
-	https://www.linkedin.com/learning/succeeding-as-an-in-house-creative
 	
 	
 exercise = True
 subtitles = True
-savedirectory = 
+savedirectory = C:/Users/r00tme/Downloads
 
 [GoogleConfig]
 bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
