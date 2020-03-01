@@ -54,7 +54,7 @@ You have five tabs Login, Download, Browser, Timings and About
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
 </br>
-<b>Version 0.16.4 is executable only:</b>
+<b>Version 0.16.4 is executable only:</b></br>
    + Fixed excercise checkbox (on/off) does not work properly</br>
    + Adding a json file containing all available course information for that can be used for an additional developments</br>
    - Removed Login menu completelly as I found it redundant and very time consuming to maintain it working. Linked in always change the login style so most stable way remains manual login</br>
