@@ -4,7 +4,7 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 <b>Video Tutorials</b></br>
 
-Version 0.16 Soon</br>
+Latest Executable Version 0.16.4 </br>
 Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE</br>
 Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 
@@ -53,6 +53,14 @@ You have five tabs Login, Download, Browser, Timings and About
 - Working in Background and Windowed mode
 - Option to save credentials from the browser, so after the first successful login if this option is selected the program will use the session.
 
+</br>
+<b>Version 0.16.4 is executable only:</b>
+   + Fixed excercise checkbox (on/off) does not work properly
+   + Adding a json file containing all available course information for that can be used for an additional developments
+   - Removed Login menu completelly as I found it redundant and very time consuming to maintain it working. Linked in always change the login style so most stable way remains manual login
+   * An attempt to fix the subtitles. Unfortunatelly still not working in all ocasions. Will have to spend some more time for reverse-engineering to analyse the issue deeply and find a fix.</br>
+ 
+</br>
 </br>
 <b>Version 0.16 is executable only:</b>
   + Download Subtitles</br>
