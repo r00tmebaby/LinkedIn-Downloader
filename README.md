@@ -62,7 +62,7 @@ You have five tabs Login, Download, Browser, Timings and About
  
 </br>
 </br>
-<b>Version 0.16 is executable only:</b>
+<b>Version 0.16 is executable only:</b><br>
   + Download Subtitles</br>
   + Download Exercise Files</br> 
   + Reworked Download Algorithm to improve stability</br>
@@ -76,7 +76,7 @@ You have five tabs Login, Download, Browser, Timings and About
 <b>Version 0.14:</b>
 - Fixed an issue #10. Program stops working if "Quiz" is found instead of video file
 
-<b>Version 0.13:</b>
+<b>Version 0.13:</b><br>
 - Added an option to delay options. 
 - Added options to delay the overall downloading process precisely so you can control its behaviour
 - Added macOS and Linux browser credentials support 
