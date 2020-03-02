@@ -1,13 +1,12 @@
-
 [mainConfig]
 downloadlist = 
-exercise = True
-subtitles = True
-savedirectory = 
+	
+	
+savedirectory = D:/
 
 [GoogleConfig]
 bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
-hidewindow = True
+hidewindow = False
 
 [Timings]
 logintime = 0

@@ -28,6 +28,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="H:/Hobby/Programming/Python/LinkedDL last Version 0.16.4/Version 0.16.3" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -71,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583081086426</updated>
       <workItem from="1583081090131" duration="17323000" />
+      <workItem from="1583130312676" duration="82000" />
     </task>
     <servers />
   </component>
@@ -82,6 +84,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583083396795" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1583130393060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583130393060" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583103381673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
