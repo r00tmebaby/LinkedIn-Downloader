@@ -2,7 +2,7 @@
 downloadlist = 
 	
 	
-savedirectory = D:/
+savedirectory = 
 
 [GoogleConfig]
 bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
