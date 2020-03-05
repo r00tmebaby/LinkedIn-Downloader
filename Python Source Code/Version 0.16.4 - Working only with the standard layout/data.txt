@@ -1,0 +1,16 @@
+[mainConfig]
+downloadlist =
+	
+savedirectory =
+
+[GoogleConfig]
+bragent = AdsBot-Google (+http://www.google.com/adsbot.html)
+hidewindow = False
+
+[Timings]
+logintime = 0
+loadingallvideos = 1
+extractcoursename = 1
+getvideolink = 1
+downloaddelay = 1
+
