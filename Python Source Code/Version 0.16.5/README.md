@@ -1,6 +1,5 @@
-# LinkedIn-Downloader v 1.16.3
+# LinkedIn-Downloader v 1.16.5
 <br>
-- Fixed videos downloading<br>
-- Subtitles still not working
+An attempt for fixing the new layout issue.
 
  
