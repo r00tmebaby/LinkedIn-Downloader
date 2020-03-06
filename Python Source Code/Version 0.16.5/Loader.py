@@ -381,7 +381,6 @@ def download_video(course_name, video_name, video_source):
     show_progress_bar(video_source, "\r%s[%s*%s]%s %s" % (bcolors.bm, bcolors.fc, bcolors.fm, bcolors.fc, video_name),
                       save_dir)
 
-
 def download_course_json(course_name, course_id):
     fk = open(config.get('mainConfig', 'saveDirectory') + r"\\" + course_name + r"\CourseInfo.json", "a+",
               encoding="utf-8")
@@ -458,6 +457,11 @@ def new_layout(driver, items_for_download):
             ".classroom-nav__sidebar-toggle.classroom-sidebar-toggle.classroom-sidebar-toggle--dark-mode").click()
         driver.find_element_by_class_name("classroom-toc-chapter").click()
         driver.find_element_by_class_name("classroom-toc-item-layout__link").click()
+        for m in driver.find_elements_by_class_name("classroom-toc-chapter__toggle btn-inverse-link"):
+            m.click()
+
+    last_video_src = ""
+
     while True:
             try:
                 if driver.find_element_by_class_name("vjs-big-play-button").is_displayed():
@@ -482,8 +486,19 @@ def new_layout(driver, items_for_download):
                         'Videos'][counter]['ID']
 
                 download_course_json(course_name, course_id)
+
+                if last_video_src == video_src:
+                    courses_count += 1
+                    sys.stdout.write(
+                        "\n%s[%s+%s]%s%sYou have successfully downloaded course %s%s %swith %d videos. Downloaded %d courses and %d videos in total\n" % (
+                            bcolors.bm, bcolors.fc, bcolors.fm, bcolors.fc,
+                            bcolors.sd + bcolors.fc, bcolors.sb + bcolors.fg, course_name,
+                            bcolors.sd + bcolors.fc, temp_counter, courses_count, total_counter)
+                    )
+                    break
                 download_video(course_name, video_name, video_src)
-                download_subtitles(driver, course_name, video_name, course_id, video_id)
+                last_video_src = video_src
+                #download_subtitles(driver, course_name, video_name, course_id, video_id)
 
                 total_counter += 1
                 temp_counter += 1
@@ -494,15 +509,6 @@ def new_layout(driver, items_for_download):
                 if driver.current_url.split("/")[5] == "quiz":
                     time.sleep(8)
                     continue
-                if driver.find_element_by_css_selector(".vjs-control.vjs-button.vjs-next-button.vjs-disabled").is_displayed():
-                    courses_count +=1
-                    sys.stdout.write(
-                        "\n%s[%s+%s]%s%sYou have successfully downloaded course %s%s %swith %d videos. Downloaded %d courses and %d videos in total\n" % (
-                            bcolors.bm, bcolors.fc, bcolors.fm, bcolors.fc,
-                            bcolors.sd + bcolors.fc, bcolors.sb + bcolors.fg, course_name,
-                            bcolors.sd + bcolors.fc, temp_counter, courses_count, total_counter)
-                    )
-                    break
 
 
 def standard_layout(driver,items_for_download):
