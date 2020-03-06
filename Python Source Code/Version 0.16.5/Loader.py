@@ -255,8 +255,8 @@ config5 = [
         [sg.T("LinkedIn Downloader", size=(500, 1), auto_size_text=True, justification='center',
               font=("Arial", 10), background_color="#888", text_color="#FFF", pad=(5, 5))],
         [sg.T("Author: @r00tme", justification='center')],
-        [sg.T("Version: GUI 0.16.4", justification='center')],
-        [sg.T("Release Date: 01/03/2020", justification='center')],
+        [sg.T("Version: GUI 0.16.5", justification='center')],
+        [sg.T("Release Date: 06/03/2020", justification='center')],
         [sg.Button(button_text="Bug Report", button_color=default_button_color, size=(10, 1),
                    key="_open_git_link_")]
 
@@ -276,7 +276,7 @@ layout = [[sg.TabGroup([[
     ]
 ]
 
-window = sg.Window('LinkedIn Downloader GUI v0.16.4', icon="icon.ico",
+window = sg.Window('LinkedIn Downloader GUI v0.16.5', icon="icon.ico",
                    auto_size_text=True,
                    auto_size_buttons=True,
                    background_color="#d4d0c8",
@@ -457,8 +457,8 @@ def new_layout(driver, items_for_download):
     while True:
             try:
                 time.sleep(1)
-                if counter > 0:
-                    driver.find_element_by_class_name("vjs-next-button").click()
+                if driver.find_element_by_class_name("vjs-big-play-button").is_displayed():
+                    driver.find_element_by_class_name("vjs-big-play-button").click()
                 try:
                     WebDriverWait(driver, time.sleep(config.getint("Timings", "getvideolink"))).until(
                         EC.presence_of_element_located((By.TAG_NAME, "video")))
@@ -485,6 +485,8 @@ def new_layout(driver, items_for_download):
                 total_counter += 1
                 temp_counter += 1
                 counter += 1
+                if counter > 0:
+                    driver.find_element_by_class_name("vjs-next-button").click()
             except:
                 if driver.current_url.split("/")[5] == "quiz":
                     time.sleep(config.getint("Timings", "downloaddelay"))
