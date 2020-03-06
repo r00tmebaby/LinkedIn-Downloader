@@ -1,6 +1,7 @@
 # LinkedIn-Downloader v 1.16.5
 <br>
 <br>
+General Update</br>
 - Added a new method to support new linkedin design<br>
 - Fixed a bug whenever a new value is added in the config the program needed a complete restart to read it<br>
 
