@@ -59,10 +59,11 @@ results = ""
 config = ConfigParser()
 config.read(configPath)
 
-links = str(config.get("mainConfig", "downloadlist")).strip().split("\n")
+
 
 default_button_color  = '#FFF', '#444'
 
+links = str(config.get("mainConfig", "downloadlist")).strip().split("\n")
 for lin in links:
     results += lin + "\n"
 
@@ -459,7 +460,6 @@ def new_layout(driver, items_for_download):
         driver.find_element_by_class_name("classroom-toc-item-layout__link").click()
     while True:
             try:
-                time.sleep(1)
                 if driver.find_element_by_class_name("vjs-big-play-button").is_displayed():
                     driver.find_element_by_class_name("vjs-big-play-button").click()
                 try:
@@ -492,7 +492,8 @@ def new_layout(driver, items_for_download):
                     driver.find_element_by_class_name("vjs-next-button").click()
             except:
                 if driver.current_url.split("/")[5] == "quiz":
-                    time.sleep(config.getint("Timings", "downloaddelay"))
+                    time.sleep(8)
+                    continue
                 if driver.find_element_by_css_selector(".vjs-control.vjs-button.vjs-next-button.vjs-disabled").is_displayed():
                     courses_count +=1
                     sys.stdout.write(
@@ -597,7 +598,7 @@ def downloader():
         "\r%s%s###############################################\n"
         "#     LinkedIn Learning Download              #\n"
         "#     @author r00tme    06/03/2020            #\n"
-        "#     @version: GUI 0.16.5                   #\n"
+        "#     @version: GUI 0.16.5                    #\n"
         "##############################################\n\n" % (
             bcolors.sd, bcolors.fc))
 
