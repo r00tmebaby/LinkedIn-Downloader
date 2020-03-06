@@ -10,8 +10,8 @@ hidewindow = False
 
 [Timings]
 logintime = 0
-loadingallvideos = 1
-extractcoursename = 1
-getvideolink = 1
-downloaddelay = 1
+loadingallvideos = 0
+extractcoursename = 0
+getvideolink = 0
+downloaddelay = 0
 
