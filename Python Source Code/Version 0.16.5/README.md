@@ -9,4 +9,5 @@
 <b>New Method Fixes:</b> </br>
 - Fixed the program stop downloading if 'Quiz' is found  ( reported by @theobserver )</br>
 - Fixed issue with downloading excercis files</br>
+- Stop downloading after the first course
 - Optimizing the download speed </br>
