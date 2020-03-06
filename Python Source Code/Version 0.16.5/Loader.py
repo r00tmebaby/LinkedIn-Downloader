@@ -611,7 +611,7 @@ def downloader():
             bcolors.bm, bcolors.fc, bcolors.fm, bcolors.fc))
         sys.stdout.flush()
         sys.exit()
-
+    links = str(config.get("mainConfig", "downloadlist")).strip().split("\n")
     for items_for_download in links:
         driver.get(items_for_download)
         time.sleep(3)
