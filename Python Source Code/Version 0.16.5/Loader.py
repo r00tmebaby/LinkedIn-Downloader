@@ -436,10 +436,13 @@ def new_layout(driver, items_for_download):
     create_course_info(course_name, course_info)
 
     time.sleep(config.getint("Timings", "extractcoursename"))
+ #   if driver.find_element_by_class_name("classroom-sidebar-toggle--open").is_displayed():
+ #       driver.find_element_by_class_name("classroom-sidebar-toggle--open").click()
 
     get = driver.find_elements_by_tag_name('button')
+
     for each in get:
-        if each.get_property("data-control-name") == "exercise_files_modal":
+        if each.get_attribute("data-control-name") == "exercise_files_modal":
             each.click()
             if driver.find_element_by_class_name("classroom-exercise-files-modal__exercise-file-data").is_displayed():
                 download_exercise(driver, course_name, 1)
@@ -593,8 +596,8 @@ def downloader():
 
         "\r%s%s###############################################\n"
         "#     LinkedIn Learning Download              #\n"
-        "#     @author r00tme    01/03/2020            #\n"
-        "#     @version: GUI 0.16.4                    #\n"
+        "#     @author r00tme    06/03/2020            #\n"
+        "#     @version: GUI 0.16.5                   #\n"
         "##############################################\n\n" % (
             bcolors.sd, bcolors.fc))
 
