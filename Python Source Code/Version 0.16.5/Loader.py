@@ -625,11 +625,7 @@ def downloader():
         time.sleep(3)
         time.sleep(config.getint("Timings", "loadingallvideos"))
         if driver.find_element_by_class_name("artdeco").is_displayed():
-            
-
-
-
-
+            new_layout(driver, items_for_download)
         else:
             standard_layout(driver, items_for_download)
 
