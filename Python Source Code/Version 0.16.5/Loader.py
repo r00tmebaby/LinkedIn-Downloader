@@ -420,6 +420,7 @@ def new_layout(driver, items_for_download):
         bcolors.bm, bcolors.fc, bcolors.fm, bcolors.fc, items_for_download))
     sys.stdout.flush()
     prefix = 0
+    time.sleep(config.getint("Timings", "extractcoursename"))
     if driver.find_element_by_class_name('classroom-workspace-overview__sub-headline').is_displayed():
         course_dificulty = (driver.find_element_by_class_name("classroom-workspace-overview__sub-headline").text).split(" ")[2]
         if course_dificulty == "Intermediate":
@@ -442,6 +443,7 @@ def new_layout(driver, items_for_download):
     get = driver.find_elements_by_tag_name('button')
 
     for each in get:
+        time.sleep(config.getint("Timings", "loadingallvideos"))
         if each.get_attribute("data-control-name") == "exercise_files_modal":
             each.click()
             if driver.find_element_by_class_name("classroom-exercise-files-modal__exercise-file-data").is_displayed():
@@ -451,7 +453,7 @@ def new_layout(driver, items_for_download):
 
 #   if driver.find_element_by_class_name("vjs-big-play-button").is_displayed():
 #   driver.find_element_by_class_name("vjs-big-play-button").click()
-
+    time.sleep(config.getint("Timings", "loadingallvideos"))
     if driver.find_element_by_css_selector(".classroom-nav__sidebar-toggle.classroom-sidebar-toggle.classroom-sidebar-toggle--dark-mode").is_displayed():
         driver.find_element_by_css_selector(
             ".classroom-nav__sidebar-toggle.classroom-sidebar-toggle.classroom-sidebar-toggle--dark-mode").click()
@@ -463,6 +465,7 @@ def new_layout(driver, items_for_download):
     last_video_src = ""
 
     while True:
+            time.sleep(config.getint("Timings", "loadingallvideos"))
             try:
                 if driver.find_element_by_class_name("vjs-big-play-button").is_displayed():
                     driver.find_element_by_class_name("vjs-big-play-button").click()
@@ -471,7 +474,7 @@ def new_layout(driver, items_for_download):
                         EC.presence_of_element_located((By.TAG_NAME, "video")))
                 except:
                     pass
-
+                time.sleep(config.getint("Timings", "extractcoursename"))
                 video_src = driver.find_element_by_tag_name("video").get_attribute("src")
                 video_name = driver.current_url.split("/")[5].replace("-", " ").split("?")[0].title()
                 video_name = "%04d_%s" % (counter, video_name)
@@ -496,6 +499,7 @@ def new_layout(driver, items_for_download):
                             bcolors.sd + bcolors.fc, temp_counter, courses_count, total_counter)
                     )
                     break
+                time.sleep(config.getint("Timings", "downloaddelay"))
                 download_video(course_name, video_name, video_src)
                 last_video_src = video_src
                 #download_subtitles(driver, course_name, video_name, course_id, video_id)
@@ -504,14 +508,16 @@ def new_layout(driver, items_for_download):
                 temp_counter += 1
                 counter += 1
                 if counter > 0:
+                    time.sleep(config.getint("Timings", "downloaddelay"))
                     driver.find_element_by_class_name("vjs-next-button").click()
             except:
                 if driver.current_url.split("/")[5] == "quiz":
+                    time.sleep(config.getint("Timings", "downloaddelay"))
                     time.sleep(8)
                     continue
 
 
-def standard_layout(driver,items_for_download):
+def standard_layout(driver, items_for_download):
 
     courses_count = 0
     total_counter = 0
