@@ -11,5 +11,5 @@ The script is simple for usage some configurations are at the very top such as m
 <b>Config:</b></br>
 <b>startCategory = 1</b>     <i>-Starting category/course</i></br>
 <b>page = 1  </b>            <i>-Starting page</i></br>
-<b>showMessage = True </b>   <i>-Should you want to see messages while the program works (slows down the whole proccess since python has to print it out)</i></b></br>
+<b>showMessage = True </b>   <i>-Should you want to see messages while the program works (slows down the whole proccess since python has to print out a message for every step)</i></b></br>
 <b>maxCategory = 2000 </b>   <i>-Maximal possible categories</i></br>
