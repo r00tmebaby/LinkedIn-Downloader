@@ -6,7 +6,7 @@ page = 1
 showMessage = True
 maxCategory = 2000
 
-def my_function(x):
+def sorting(x):
   return list(dict.fromkeys(x))
 
 while startCategory <= maxCategory:
@@ -24,7 +24,7 @@ while startCategory <= maxCategory:
         startCategory +=1
         page = 1
     if startCategory == maxCategory:
-        mylist = my_function(newUrlList)
+        mylist = sorting(newUrlList)
         mylist.sort()
         for allcourses in mylist:
                 open("LyndaCourseList.txt", "a+").write(allcourses + "\n")
