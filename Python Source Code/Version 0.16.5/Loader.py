@@ -257,7 +257,7 @@ config5 = [
               font=("Arial", 10), background_color="#888", text_color="#FFF", pad=(5, 5))],
         [sg.T("Author: @r00tme", justification='center')],
         [sg.T("Version: GUI 0.16.5", justification='center')],
-        [sg.T("Release Date: 06/03/2020", justification='center')],
+        [sg.T("Release Date: 08/03/2020", justification='center')],
         [sg.Button(button_text="Bug Report", button_color=default_button_color, size=(10, 1),
                    key="_open_git_link_")]
 
@@ -462,7 +462,7 @@ def new_layout(driver, items_for_download):
         for m in driver.find_elements_by_class_name("classroom-toc-chapter__toggle btn-inverse-link"):
             m.click()
 
-    last_video_src = ""
+    last_video_src = []
 
     while True:
             time.sleep(config.getint("Timings", "loadingallvideos"))
@@ -490,7 +490,7 @@ def new_layout(driver, items_for_download):
 
                 download_course_json(course_name, course_id)
 
-                if last_video_src == video_src:
+                if last_video_src.count(video_src) > 2:
                     courses_count += 1
                     sys.stdout.write(
                         "\n%s[%s+%s]%s%sYou have successfully downloaded course %s%s %swith %d videos. Downloaded %d courses and %d videos in total\n" % (
@@ -501,7 +501,7 @@ def new_layout(driver, items_for_download):
                     break
                 time.sleep(config.getint("Timings", "downloaddelay"))
                 download_video(course_name, video_name, video_src)
-                last_video_src = video_src
+                last_video_src.append(video_src)
                 #download_subtitles(driver, course_name, video_name, course_id, video_id)
 
                 total_counter += 1
@@ -609,7 +609,7 @@ def downloader():
 
         "\r%s%s###############################################\n"
         "#     LinkedIn Learning Download              #\n"
-        "#     @author r00tme    06/03/2020            #\n"
+        "#     @author r00tme    08/03/2020            #\n"
         "#     @version: GUI 0.16.5                    #\n"
         "##############################################\n\n" % (
             bcolors.sd, bcolors.fc))
