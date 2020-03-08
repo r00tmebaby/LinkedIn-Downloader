@@ -1,6 +1,6 @@
 # Lynda Courses List Download
 
-With this script you can download all lynda courses available for download either premium and/or free. This can be helpfull and safe your time by trolling around the website with seraching for the courses that you may need. Instead, you can dump the whole database and select the courses you are interested in for download.
+With this script you can dump all lynda courses links available for download either premium and/or free. This can be helpfull and safe your time by trolling around the website with seraching for the courses that you may need. Instead, you can dump the whole database and select the courses you are interested in for download.
 
 </br>
 
