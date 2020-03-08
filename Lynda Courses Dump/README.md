@@ -9,7 +9,7 @@ The script is simple for usage some configurations are at the very top such as m
 </br>
 
 <b>Config:</b></br>
-startCategory = 1     -Starting category/course</br>
-page = 1              -Starting page</br>
-showMessage = True    -Should you want to see messages while the program works (slows down the whole proccess since python has to print it out)</br>
-maxCategory = 2000    -Maximal possible categories</br>
+<b>startCategory = 1</b>     <i>-Starting category/course</i></br>
+<b>page = 1  </b>            <i>-Starting page</i></br>
+<b>showMessage = True </b>   <i>-Should you want to see messages while the program works (slows down the whole proccess since python has to print it out)</i></b></br>
+<b>maxCategory = 2000 </b>   <i>-Maximal possible categories</i></br>
