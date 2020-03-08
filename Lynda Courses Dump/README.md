@@ -8,7 +8,7 @@ The script is simple for usage some configurations are at the very top such as m
 
 </br>
 
-Config:
+<b>Config:</b></br>
 startCategory = 1 # Starting category/course</br>
 page = 1 # Starting page</br>
 showMessage = True   # Should you want to see messages while the program works (slows down the whole proccess since python has to print it out)</br>
