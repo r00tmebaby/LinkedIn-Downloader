@@ -1,0 +1,16 @@
+[mainConfig]
+downloadlist = 
+	
+savedirectory = 
+
+[GoogleConfig]
+bragent = Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+hidewindow = False
+
+[Timings]
+logintime = 0
+loadingallvideos = 0
+extractcoursename = 0
+getvideolink = 0
+downloaddelay = 0
+
