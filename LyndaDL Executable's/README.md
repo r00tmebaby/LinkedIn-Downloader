@@ -8,7 +8,7 @@ I have provided a working cookie in the package, but it may expire at some point
 Video how to use the program https://www.youtube.com/watch?v=FKPZeyM7098&t=6s
 
 
-If you want to use this program to download LinkedIn learning courses the main task is to find the original course link in Lynda.com 
+<i>If you want to use this program to download LinkedIn learning courses the main task is to find the original course link in Lynda.com 
 
 <b>If in your case, the course name is Learning Mailchimp </b>
 
@@ -35,5 +35,6 @@ https://github.com/r00tmebaby/LinkedIn-Downloader/tree/master/LyndaDL%20Executab
 
 That's all you need to do.
 
+</i>
 
 
