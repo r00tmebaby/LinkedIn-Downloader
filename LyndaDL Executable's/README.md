@@ -18,7 +18,7 @@ If you want to use this program to download LinkedIn learning courses the main t
 
 <img src ="https://i.gyazo.com/b427fcf145403a8c0bba3a8dba2fb694.png">
 
-<b>Select on the course</b>
+<b>Select the course</b>
 <img src="https://i.gyazo.com/0d205ac0478fa30f7353524cadabfe7d.png">
 
 <b>This is what you are interested in... the original course link </b>
