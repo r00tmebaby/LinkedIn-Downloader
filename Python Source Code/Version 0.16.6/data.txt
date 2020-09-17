@@ -1,7 +1,8 @@
 [mainConfig]
-downloadlist = https://www.linkedin.com/learning/on-leadership-by-jeff-weiner/welcome-to-on-leadership
-	
-savedirectory = E:/LinkedIn Learning Courses
+downloadlist =
+
+
+savedirectory =
 
 [GoogleConfig]
 bragent = Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
