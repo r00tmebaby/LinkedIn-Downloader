@@ -4,9 +4,9 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <img src="https://i.imgur.com/SrpYArO.png"></img><br>
 
 <b>Video Tutorials</b></br>
-
-<h2 style="color:#ff0000">It appears that all video tutorials how to use the program were permanently deleted from YouTube!</h2>
-
+</br>
+<h2 style="color:#ff0000">It appears that all video tutorials that I have created of how to use the program were permanently deleted from YouTube! Unfortunatelly you have been left only with the information below, so read it carefully prior to use the script and before opening an issue.</h2>
+</br>
 Latest Executable Version 0.16.4 </br>
 
 <br><br>
