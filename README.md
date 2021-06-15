@@ -5,8 +5,6 @@ LinkedIn DL  is a small GUI program coded with Python and based on my previous L
 <b>Video Tutorials</b></br>
 
 Latest Executable Version 0.16.4 </br>
-Version 0.14 https://www.youtube.com/watch?v=6E2wi-oJVTE</br>
-Version 0.11 https://www.youtube.com/watch?v=n-qCC6SiKgc&feature=youtu.be</br>
 
 <br><br>
 <b>What it does?</b></br>
