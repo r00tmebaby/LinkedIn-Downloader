@@ -1,2 +1,3 @@
-Windows*/** linguist-vendored
-LyndaDL*/** linguist-vendored
+*.tcl linguist-vendored
+*.tm linguist-vendored
+*.h linguist-vendored
