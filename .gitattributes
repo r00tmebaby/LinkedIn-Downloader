@@ -1,3 +1,4 @@
 *.tcl linguist-vendored
 *.tm linguist-vendored
 *.h linguist-vendored
+tclIndex linguist-vendored
